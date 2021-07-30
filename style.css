@@ -1,0 +1,1394 @@
+/*
+Theme Name: amighini
+Description: Theme diseñado y desarrollado exclusivamente para el sitio web de amighini
+Version: 1.0
+Author: Fernando Bayley para Weblosofy Digital
+License: GPLv2 or later
+*/
+
+.heroHomeDecor {
+    background: url(https://amighini.net/wp-content/themes/amighini/assets/images/hero-home-decor.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin-top: -130px;
+}
+.bannerHomeDecor {
+    background: url(https://amighini.net/wp-content/themes/amighini/assets/images/hero-home-decor.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+.heroHerrero {
+    background: url(https://amighini.net/wp-content/themes/amighini/assets/images/banner-herrero.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin-top: -130px;
+}
+.bannerHerrero {
+    background: url(https://amighini.net/wp-content/themes/amighini/assets/images/banner-herrero.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+.bannerLandmark {
+    background: url(https://amighini.net/wp-content/themes/amighini/assets/images/banner-landmark.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+.heroLandmark {
+    background: url(https://amighini.net/wp-content/themes/amighini/assets/images/banner-landmark.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin-top: -130px;
+}
+.bannerAntiqueDoors {
+    background: url(https://amighini.net/wp-content/themes/amighini/assets/images/banner-antique-doors.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+.heroAntiqueDoors {
+    background: url(https://amighini.net/wp-content/themes/amighini/assets/images/banner-antique-doors.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin-top: -130px;
+}
+.bannerComingSoom {
+    background: url(https://amighini.net/wp-content/themes/amighini/assets/images/banner-comming-soon.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin-top: -130px;
+}
+.heroComingSoom {
+    background: url(https://amighini.net/wp-content/themes/amighini/assets/images/banner-comming-soon.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin-top: -130px;
+}
+.heroServicios {
+    background: url(https://amighini.net/wp-content/themes/amighini/assets/images/banner-servicios.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin-top: -130px;
+}
+.bannerServicios {
+    background: url(https://amighini.net/wp-content/themes/amighini/assets/images/banner-servicios.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+.heroNovedades {
+    background: url(https://amighini.net/wp-content/themes/amighini/assets/images/hero-novedades.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin-top: -130px;
+}
+.nuestroEquipo {
+    background-color: black;
+    height: auto;
+    color: white;
+    padding: 70px 0 50px 0;
+}
+.nuestroEquipo img {
+    height: auto;
+    width: 100%;
+    border-radius: 3px;margin-bottom: 10px;
+}
+.nuestroEquipo h3 {
+    color: white;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.algoSobreElCreador {
+    background-color: black;
+    border-bottom: solid 10px grey;
+    color: white;
+    height: auto;
+}
+.nuestrosClientes {
+    background-color: black;
+    height: auto;
+    text-align: center;
+}
+.newyork {
+    background: url(https://amighini.net/wp-content/themes/amighini/assets/images/ny.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 550px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+.verona {
+    background: url(https://amighini.net/wp-content/themes/amighini/assets/images/verona.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 550px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+.footer {
+    border-top: solid 10px grey;
+    height: auto;
+}
+.footer a {
+    color: black;
+}
+.footer a:hover {
+    color: grey;
+    text-decoration: none;
+}
+.explicacion {
+    height: auto;
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+.productos {
+    text-align: center;
+    height: auto;
+}
+.productos a {
+    text-decoration: none;
+    color: black;
+}
+.productos img {
+    height: auto;
+    margin-top: 20px;
+    width: 100%;
+}
+.productos h2 {
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+}
+.productos h3 {
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 50px;
+}
+.titulo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: 100;
+}
+.tituloGaleria {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    margin: 15px 0 0 0;
+    padding: 0;
+}
+.texto {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+.blogContainer {
+    height: auto;
+}
+.colFull {
+    padding: 10px;
+    margin: 0;
+}
+.colFull img {
+    height: auto;
+    width: 100%;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    padding: 20px 20px 30px 20px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.navbar ul li {
+    display: inline-block;
+    padding: 0 25px 10px 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar ul li a {
+    color: white !important;
+    text-decoration: none;
+    padding: 5px;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+    border-radius: 3px;
+}
+.navbar ul li a:hover {
+    background-color: white;
+    color: grey !important;
+    padding: 5px;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+    border-radius: 5px;
+}
+.boton {
+    border: solid 2px white;
+    padding: 10px 30px 10px 30px;
+    background-color: transparent;
+    font-size: 13px;
+    color: white;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+.boton:hover {
+    background-color: black;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+.botonBlack {
+    border: solid 2px black;
+    padding: 10px 30px 10px 30px;
+    background-color: transparent;
+    color: black;
+    font-size: 13px;
+}
+.botonBlack:hover {
+    background-color: black;
+    color: white;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+.bannerHerrero h3 {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.bannerHerrero h2 {
+    font-size: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+.bannerAntiqueDoors h3 {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.bannerAntiqueDoors h2 {
+    font-size: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+
+
+
+.big {
+    font-size: 300px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+.servicios h3 {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.servicios h2 {
+    font-size: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+.novedades h3 {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.novedades h2 {
+    font-size: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+.algoSobreElCreador {
+    padding: 70px 0 70px 0;
+    height: auto;
+}
+.algoSobreElCreador h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.algoSobreElCreador article p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.algoSobreElCreador img {
+    height: auto;
+    width: 100%;
+}
+.nuestrosClientes {
+    height: auto;
+    padding: 70px 0 70px 0;
+    color: white;
+}
+.nuestrosClientes img {
+    height: auto;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+.nuestrosClientes h2 {
+    text-align: left;
+    font-size: 15px;
+}
+.nuestrosClientes p {
+    text-align: left;
+    font-size: 13px;
+}
+
+.sucursales h2 {
+    font-size: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+.footer {
+    height: auto;
+    padding: 20px 0 20px 0;
+}
+.footer h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: grey;
+}
+.logosainstagram h3 {
+    text-align: right;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+
+.blogContainer h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.blogContainer p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+    color: grey;
+}
+form {
+    padding: 20px;
+}
+form input {
+    height: 60px;
+}
+
+.botonBlackEnvio {
+    width: 100%;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.menuSecundario {
+    height: auto;
+    padding: 0 20px 0 20px;
+    margin: 0;
+    width: auto;
+}
+.menuSecundario ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 3px 0 3px;
+    color: grey;
+}
+.menuSecundario ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+.menuSecundario ul li a:hover {
+    text-decoration: underline;
+}
+.techo {
+    border-top: solid 1px gainsboro;
+    margin: 0;
+    padding: 10px 0 0 0;
+}
+.piso {
+    border-bottom: solid 1px gainsboro;
+    margin: 0;
+    padding: 10px 0 0 0;
+}
+.menuAjustes {
+    margin: 0;
+    padding: 0;
+}
+.contenedorCentral {
+    height: 100vh;
+}
+.presentacioTexto {
+    height: 100vh;
+    padding: 20px;
+}
+.presentacioTexto h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: 80px;
+}
+.presentacioTexto h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    color: grey;
+}
+.logoInicio {
+    margin-bottom: 200px;
+    margin-top: 50px;
+}
+.presentacionInicial {
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.botonDeAcceso {
+    border: none;
+    border: solid 2px black;
+    background-color: transparent;
+    height: auto;
+    padding: 15px 0 15px 0;
+    margin-top: 15px;
+    width: 40%;
+    font-weight: 300;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+.botonDeAcceso:hover {
+    background-color: black;
+    color: white;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+.presentacionInicial img {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.btn-whatsapp {
+    display: block;
+    width: 80px;
+    height: 100px;
+    color: #fff;
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    border-radius: 50%;
+    line-height: 80px;
+    text-align: center;
+    z-index: 999;
+}
+  .btn-whatsapp:hover {
+    opacity: 0.7;
+}
+  .divisionInicial {
+    margin-top: 100px;
+}
+.btn-assistance {
+    display: block;
+    width: auto;
+    height: auto;
+    color: #fff;
+    position: fixed;
+    left: 0px;
+    bottom: 100px;
+    text-align: left;
+    z-index: 999;
+    padding: 10px;
+    width: auto;
+}
+.btn-assistance:hover {
+    opacity: 0.8;
+}
+.asistente img {
+    height: auto;
+    width: 100%;
+}
+.contactAseller {
+    width: 50%;
+}
+.contactAseller h2 {
+    font-size: 15px;
+    padding: 0 10px 0 10px;
+}
+.formulario {
+    border: silid 1px red;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+.formulario form {
+    height: auto;
+}
+.formulario input {
+    height: 40px;
+    border: none;
+    border: solid 1px gainsboro;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+.menuSec {
+    margin-top: 10px;
+}
+.colGaleria {
+    height: auto;
+}
+.colGaleria img {
+    height: auto;
+    width: 100%;
+    border-radius: 3px;
+}
+.detallePost {
+    height: auto;
+}
+.detallePost img {
+    height: auto;
+    width: 100%;
+}
+.colImg {
+    margin: 0;
+    padding: 10px;
+}
+.botonVerMasDinamic {
+    border: none;
+    border: solid 1px black;
+    background-color: transparent;
+    margin-bottom: 70px;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+.botonVerMasDinamic:hover {
+    background-color: black;
+    color: white;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+.tituloPublicacion {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    padding: 15px 0 0 0;
+}
+.textoPublicacion {
+    border: none;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+}
+.bigTitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+}
+.tituloSingle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+}
+.textoSingle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: grey;
+}
+.all {
+    margin: 0;
+    padding: 10px;
+}
+.tituloDestacadoNuestroEquipo {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.tituloDestacadoNuestroEquipo h2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+.tituloInternas {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+.tituloInternas h2 {
+    height: auto;
+    padding: 30px 0 20px 0;
+    font-weight: 300;
+}
+.contenedorCentralPagina {
+    height: auto;
+    padding: 0 0 50px 0;
+}
+.colInterna {
+    border: solid 1px green;
+    height: auto;
+    margin: 0;
+    padding: 5px;
+}
+.colInterna img {
+    height: auto;
+    width: 100%;
+}
+.form-control {
+    border: none;
+    border-bottom: solid 1px grey;
+    border-radius: 0px;
+    margin: 0;
+    padding: 0;
+}
+.colCeroPixel {
+    margin: 0;
+    padding: 0;
+}
+.botonEnvio {
+    border: solid 1px black;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+}
+.Descripcion {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+.resultadosDeBusqueda {
+    height: auto;
+    padding: 50px 0 50px 0;
+}
+.resultadosDeBusqueda a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+.linkResultados a {
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+.linkResultados a:hover {
+    text-decoration: underline;
+}
+.noEncontrado {
+    height: auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: 100;
+    padding: 100px 0 100px 0;
+}
+.widget-title {
+    display: none;
+}
+.screen-reader-text {
+    display: none;
+}
+#searchform input {
+    border: none;
+    width: 45%;
+    display: inline-block;
+    border-bottom: solid 1px black;
+}
+#searchsubmit {
+    border: none;
+    background-color: transparent;
+    width: 45%;
+    display: inline-block;
+    border-bottom: solid 1px black;
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo img {
+    height: auto;
+    width: 100%;
+}
+.logo img a {
+    background-color: transparent!important;
+}
+.logo img a:hover {
+    background-color: transparent!important;
+} 
+.efetoImg {
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+} 
+.efetoImg:hover {
+    opacity: 0.7;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+} 
+.menuHamburguesa {
+    color: white;
+} 
+.navbar-toggler {
+    border: transparent !important;
+}
+
+.map {
+    height: auto;
+}
+
+
+.logosainstagram ul li {
+    list-style: none;
+    display: inline-block;
+    float: right;
+    padding: 5px;
+}
+
+.logosainstagram ul li a {
+    text-decoration: none;
+}
+
+
+
+/*
+
+   _____             .___.__        
+  /     \   ____   __| _/|__|____   
+ /  \ /  \_/ __ \ / __ | |  \__  \  
+/    Y    \  ___// /_/ | |  |/ __ \_
+\____|__  /\___  >____ | |__(____  /
+        \/     \/     \/         \/ 
+                           .__               
+  ________ __   ___________|__| ____   ______
+ / ____/  |  \_/ __ \_  __ \  |/ __ \ /  ___/
+< <_|  |  |  /\  ___/|  | \/  \  ___/ \___ \ 
+ \__   |____/  \___  >__|  |__|\___  >____  >
+    |__|           \/              \/     \/ 
+
+*/
+
+
+@media (min-width: 320px) {
+    .heroAntiqueDoors {
+        background: url(https://amighini.net/wp-content/themes/amighini/assets/images/banner-antique-doors.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100vh;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        margin-top: -155px;
+    }
+    .heroLandmark {
+        background: url(https://amighini.net/wp-content/themes/amighini/assets/images/banner-landmark.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100vh;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        margin-top: -155px;
+    }
+    .heroComingSoom {
+        background: url(https://amighini.net/wp-content/themes/amighini/assets/images/banner-comming-soon.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100vh;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        margin-top: -155px;
+    }
+    .heroHerrero {
+        background: url(https://amighini.net/wp-content/themes/amighini/assets/images/banner-herrero.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100vh;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        margin-top: -155px;
+    }
+    .heroHomeDecor {
+        background: url(https://amighini.net/wp-content/themes/amighini/assets/images/hero-home-decor.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100vh;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        margin-top: -155px;
+    }
+    .heroNovedades {
+        background: url(https://amighini.net/wp-content/themes/amighini/assets/images/hero-novedades.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100vh;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        margin-top: -155px;
+    }
+    .heroServicios {
+        background: url(https://amighini.net/wp-content/themes/amighini/assets/images/banner-servicios.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100vh;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        margin-top: -155px;
+    }
+    .sucursales h2 {
+        font-size: 2rem;
+    }
+    .bannerComingSoom h2 {
+        font-size: 3rem;
+    }
+    .bannerHerrero h2 {
+        font-size: 3rem;
+    }
+    .textoPresentacionResponsive {
+        font-size: 3.8rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 100;
+    }
+    .colCeroPixel {
+        display: none;
+    }
+    
+}
+
+@media (min-width: 375px) {
+    .colCeroPixel {
+        display: block;
+    }
+    .heroAntiqueDoors {
+        background: url(https://amighini.net/wp-content/themes/amighini/assets/images/banner-antique-doors.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100vh;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        margin-top: -170px;
+    }
+    .heroLandmark {
+        background: url(https://amighini.net/wp-content/themes/amighini/assets/images/banner-landmark.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100vh;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        margin-top: -170px;
+    }
+    .heroComingSoom {
+        background: url(https://amighini.net/wp-content/themes/amighini/assets/images/banner-comming-soon.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100vh;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        margin-top: -170px;
+    }
+    .heroHerrero {
+        background: url(https://amighini.net/wp-content/themes/amighini/assets/images/banner-herrero.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100vh;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        margin-top: -170px;
+    }
+    .heroHomeDecor {
+        background: url(https://amighini.net/wp-content/themes/amighini/assets/images/hero-home-decor.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100vh;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        margin-top: -170px;
+    }
+    .heroNovedades {
+        background: url(https://amighini.net/wp-content/themes/amighini/assets/images/hero-novedades.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100vh;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        margin-top: -170px;
+    }
+    .heroServicios {
+        background: url(https://amighini.net/wp-content/themes/amighini/assets/images/banner-servicios.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100vh;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        margin-top: -170px;
+    }
+}
+
+@media (min-width: 414px) {
+    .colCeroPixel {
+        display: block;
+    }
+    .heroAntiqueDoors {
+        background: url(https://amighini.net/wp-content/themes/amighini/assets/images/banner-antique-doors.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100vh;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        margin-top: -180px;
+    }
+    .heroLandmark {
+        background: url(https://amighini.net/wp-content/themes/amighini/assets/images/banner-landmark.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100vh;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        margin-top: -180px;
+    }
+    .heroComingSoom {
+        background: url(https://amighini.net/wp-content/themes/amighini/assets/images/banner-comming-soon.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100vh;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        margin-top: -180px;
+    }
+    .heroHerrero {
+        background: url(https://amighini.net/wp-content/themes/amighini/assets/images/banner-herrero.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100vh;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        margin-top: -180px;
+    }
+    .heroHomeDecor {
+        background: url(https://amighini.net/wp-content/themes/amighini/assets/images/hero-home-decor.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100vh;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        margin-top: -180px;
+    }
+    .heroNovedades {
+        background: url(https://amighini.net/wp-content/themes/amighini/assets/images/hero-novedades.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100vh;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        margin-top: -180px;
+    }
+    .heroServicios {
+        background: url(https://amighini.net/wp-content/themes/amighini/assets/images/banner-servicios.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100vh;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        margin-top: -180px;
+    }
+}
+
+@media (min-width: 425px) {
+    .colCeroPixel {
+        display: block;
+    }
+    .bannerHerrero h2 {
+        font-size: 5rem;
+    }
+    .bannerComingSoom h2 {
+        font-size: 5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .colCeroPixel {
+        display: block;
+    }
+    .colCeroPixel img {
+        height: auto;
+        width: 100%;
+    }
+    .sucursales h2 {
+        font-size: 4rem;
+    }
+    .textoPresentacionResponsive {
+        font-size: 5rem;
+    }
+    .bannerHerrero h2 {
+        font-size: 5rem;
+    }
+    .bannerComingSoom h2 {
+        font-size: 5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .colCeroPixel {
+        display: block;
+    }
+    .colCeroPixel img {
+        height: auto;
+        width: 100%;
+    }
+    .sucursales h2 {
+        font-size: 5rem;
+    }
+    .textoPresentacionResponsive {
+        font-size: 5rem;
+    }
+    .bannerHerrero h2 {
+        font-size: 5rem;
+    }
+    .bannerComingSoom h2 {
+        font-size: 5rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .colCeroPixel {
+        display: block;
+    }
+    .sucursales h2 {
+        font-size: 6rem;
+    }
+    .textoPresentacionResponsive {
+        font-size: 8rem;
+    }
+    .bannerHerrero h2 {
+        font-size: 8rem;
+    }
+    .bannerComingSoom h2 {
+        font-size: 8rem;
+    }
+}
+
+@media (min-width: 2560px) {
+    .colCeroPixel {
+        display: block;
+    }
+    .sucursales h2 {
+        font-size: 6rem;
+    }
+    .textoPresentacionResponsive {
+        font-size: 10rem;
+    }
+    .bannerHerrero h2 {
+        font-size: 10rem;
+    }
+    .bannerComingSoom h2 {
+        font-size: 10rem;
+    }
+}

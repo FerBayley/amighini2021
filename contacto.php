@@ -1,0 +1,84 @@
+<?php 
+
+/*
+Template Name: contacto
+*/
+
+?>
+
+
+<?php get_header(); ?>
+
+    <div class="container-fluid mt-5">
+      <div class="row">
+        <div class="col">
+          <h2 class="bigTitle"><?php the_title(); ?></h2>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTAINER CONTACTO -->
+    <section class="contcato">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6 colFull">
+                        <?php query_posts('category_name=contactus&showposts=1000'); ?>
+                        <?php while (have_posts()) : the_post(); ?>
+                        <p class="texto"><?php the_content(); ?></p>
+                        <?php endwhile; ?>
+                </div>
+
+                <div class="col-12 col-md-6 colCeroPixel">
+                   <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img-contacto.png" alt="Imagen contacto">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /CONTAINER CONTACTO -->
+
+
+
+    <!-- NUESTRO EQUIPO -->
+    <?php include("includes/nuestro-equipo.php"); ?>
+    <!-- /NUESTRO EQUIPO -->
+
+
+    <!-- BANNER HERRERO -->
+    <section class="bannerHerrero">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="textoPresentacion textoPresentacionResponsive">HERRERO</h2>
+                    <button type="button" class="boton">VER COLECCION COMPLETA</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /BANNER HERRERO -->
+
+
+
+    <!-- HOME & DECOR -->
+    <section class="bannerHomeDecor">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h2 class="textoPresentacion textoPresentacionResponsive">HOME & DECOR</h2>
+                    <button type="button" class="boton">VER COLECCION COMPLETA</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /HOME & DECOR -->
+        
+
+
+    <!-- ALGO SOBRE EL CREADOR -->
+    <?php include("includes/algo-sobre-el-creador.php"); ?>
+    <!-- /ALGO SOBRE EL CREADOR -->
+
+    <!-- NUESTROS CLIENTES -->
+    <?php include("includes/nuestros-clientes.php"); ?>
+    <!-- /NUESTROS CLIENTES -->
+
+    <?php get_footer(); ?>
